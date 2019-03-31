@@ -1,0 +1,145 @@
+.container{
+	width: 100%;
+	height: 1000px; 
+	margin: 0 auto;
+	background: pink; 
+	/* 最大宽度 */
+	max-width: 725px;
+	/* 最小宽度 */
+	min-width: 320px;
+}
+.header{
+	position: relative;
+	background: #130c05;
+	width: 100%;
+	height: 80px;
+	line-height: 66px;
+	display: flex;
+/*	padding: 15px;*/
+	/*overflow: hidden;	*/
+}
+.header .header_top{
+	width: 40%;
+	padding-left: 28%;
+}
+.header .pre{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	/*background: red;*/
+	right: 0;
+	text-align: center;
+	line-height: 80px;
+	cursor: pointer;
+}
+.header .pre:hover{
+	background: #eeeeee;
+	transition: 0.5s;
+}
+.header .pre .pab{
+	display: block;
+	position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 20px;
+    right: 8px;
+    border-radius: 50%;
+    background: #FF4d4d;
+}
+.header .pre span{
+	color: #FFFFFF;
+	font-size: 50px;
+}
+/*导航条开始*/
+.san_nav{
+	display: flex;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+}
+.san_nav li{
+	flex: 1;
+	width: 16.6%;
+	height: 70px;
+}
+.san_nav li a{
+	text-decoration: none;
+}
+.san_nav li a:hover{
+	color: #cdac5f;
+}
+.san_nav li a.hv{
+	border-bottom: 3px solid #cdac5f;
+    color: #cdac5f;
+    /*text-decoration: none;*/
+}
+.lijiang{
+	/*width: 100%;*/
+	/*height: 100px;*/
+	/*background: red;*/
+	/*padding: 10px;*/
+}
+.ctiy{
+	display: flex;
+	
+}
+.ctiy li{
+	flex: 1;
+	
+}
+.ctiy li a{
+	display: block;
+	width: 95%;
+	height: 245px;
+	background: url(../img/city.png);
+	background-size: 100% 100%;
+	margin-left: 5px;
+	text-align: center;
+	font-size: 25px;
+	color: #000000;
+}
+.ctiy li a b{
+	padding-top: 185px;
+/*	margin-left: 56px;*/
+    display: inline-block;
+    font-weight: bold;
+}
+.ctiy li a:hover{
+	 color: #cdac5f;
+}
+.zhishi{
+	width: 100%;
+	height: 30px;
+	/*background: red;*/
+	cursor: pointer;
+	text-align: center;
+	margin-top: 10px;
+}
+.zhishi .zhiqi{
+	display: inline-block;
+	width: 20px;
+    border-color: #BBB;
+    background-color: #CCC;
+    height: 8px;
+    border-radius: 30px;
+    margin: 10px;
+   /* opacity: 0.65;*/
+}
+.zhishi .zhishiqi{
+	display: inline-block;
+	background: none;
+   border: 1px solid #BBB;
+    /*opacity: 0.30;*/
+    height: 10px;
+    width: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.zuop{
+	text-align: center;
+}
+.zuop a img{
+	width: 83.3%;
+}
