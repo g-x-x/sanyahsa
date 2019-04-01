@@ -4,13 +4,13 @@ body{
     padding: 0px;
     overflow-x: hidden;
     text-align: center;
-    background: #000;
+    background: #000 !important;
 }
 .container{
 	width: 100%;
-	/*height: 7000px; */
+	/*height: 3000px; */
 	margin: 0 auto;
-	background: #FFFFFF; 
+	background:#FFFFFF; 
 	/* 最大宽度 */
 	max-width: 725px;
 	/* 最小宽度 */
@@ -84,74 +84,64 @@ body{
     color: #cdac5f;
     /*text-decoration: none;*/
 }
-.lijiang{
-	/*width: 100%;*/
-	/*height: 100px;*/
-	/*background: red;*/
-	/*padding: 10px;*/
-}
-.ctiy{
-	display: flex;
-	
-}
-.ctiy li{
-	flex: 1;
-	
-}
-.ctiy li a{
-	display: block;
-	width: 95%;
-	height: 245px;
-	background: url(../img/city.png);
-	background-size: 100% 100%;
-	margin-left: 5px;
-	text-align: center;
-	font-size: 25px;
-	color: #000000;
-}
-.ctiy li a b{
-	padding-top: 185px;
-/*	margin-left: 56px;*/
-    display: inline-block;
-    font-weight: bold;
-}
-.ctiy li a:hover{
-	 color: #cdac5f;
-}
-.zhishi{
-	width: 100%;
-	height: 30px;
-	/*background: red;*/
-	cursor: pointer;
-	text-align: center;
-	margin-top: 10px;
-}
-.zhishi .zhiqi{
-	display: inline-block;
-	width: 20px;
-    border-color: #BBB;
-    background-color: #CCC;
-    height: 8px;
-    border-radius: 30px;
-    margin: 10px;
-   /* opacity: 0.65;*/
-}
-.zhishi .zhishiqi{
-	display: inline-block;
-	background: none;
-   border: 1px solid #BBB;
-    /*opacity: 0.30;*/
-    height: 10px;
-    width: 10px;
-    margin: 10px;
-    border-radius: 30px;
-}
 .zuop{
 	text-align: center;
 	margin: 20px 0 10px 0;
 }
 .zuop a img{
 	width: 83.3%;
+}
+.block50{
+	height: 2.5rem;
+}
+.type_list{
+	width: 100%;
+	text-align: center;
+	background: #EEEEEE;
+	/*font-size: 1.2rem;*/
+	display: flex;
+}
+.type_list .content{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+.type_list .content a{
+	/*display: inline-block;*/
+    height: 3.5rem;
+    width: 25%;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.type_list .content a:hover{
+	transition: all 0.5s ease-in-out; 
+	color: #CDAC5F;
+}
+.type_list .content a:nth-child(5){
+	height: 3.5rem;
+    width: 33.3%;
+    color: #000;
+    margin-left: 30px;
+}
+.type_list .content a:nth-child(5):hover{
+	transition: all 0.5s ease-in-out; 
+	color: #CDAC5F;
+}
+.type_list .content a span{
+	display: block;
+    border-right: 1px solid #CCC;
+    width: 95%;
+    height: 2rem;
+    line-height: 2rem;
+    margin-top: 0.75rem;
+  
+}
+.type_list .content a:nth-child(7) span{
+	border-right:none;
+}
+.block40{
+	height: 2rem;
 }
 
 /*下面大图展示*/
@@ -161,7 +151,7 @@ body{
 }
 .people ul{
 	width: 100%;
-	height: 370px;
+	/*height: 370px;*/
 	display: flex;
 	flex-wrap: wrap;
     justify-content: space-around;
@@ -189,69 +179,12 @@ body{
 }
 .people li .pt{
 	text-align: center;
-	font-size: 30px;
+	font-size: 2.5rem;
 	margin-top: 10px;
 	font-weight: bold;
 }
 .people li a:hover{
 	transition: all 0.5 ease-in-out;
-	color:#cdac5f;
-}
-.clh{
-	height: 0;
-	overflow: hidden;
-	clear: both;
-}
-/*人区域结束*/
-.c9{
-	width: 94%;
-	color: #666;
-	margin: 0 auto;
-	margin-top: 500px;
-}
-.dsc{
-	display: block;
-}
-.more{
-	width: 100%;
-	background: url(../img/read1.png) no-repeat;
-	height: 4rem;	
-	background-size: 100% 100%;
-}
-.c9:hover{
-	background: blue;
-}
- .sanyue{
- 	width: 94%;
- 	margin: 0 auto;
- }
-.tac{
-	text-align: center;
-}
-.ct1 a{
-	color: #333;
-}
-.photo ul li{
-	width: 100%;
-	overflow: hidden;
-	margin-bottom: 15px;
-}
-.photo ul li a{
-	text-decoration: none;
-}
-.photo ul li a img{
-	width: 100%;
-}
-.photo ul li .fs{
-	font-size: 25px;
-	padding-top: 10px;
-	font-weight: 600;
-}
-.photo ul li .fs16{
-	font-size: 20px;
-	padding-top: 10px;
-}
-.photo ul li a:hover{
 	color:#cdac5f;
 }
 .w9{
