@@ -1,0 +1,194 @@
+img{
+	width: 100%;
+	display: block;
+}
+.container{
+	width: 100%;
+	/*height: 3000px; */
+	margin: 0 auto;
+	background:#CCCCCC; 
+	/* 最大宽度 */
+	max-width: 660px;
+	/* 最小宽度 */
+	min-width: 320px;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	/*margin-top: 10px;*/
+	line-height: 60px;
+	background:green;
+	/*border-radius: 5px;*/
+	/* 整个小nav弹性盒子 */
+	color: #FFFFFF;
+	max-width: 660px;
+	position: fixed;
+	z-index: 1000;
+	display: flex;
+	
+}
+.header .ictu{
+	flex: 1;
+	/*margin-right: 10px;*/
+}
+.header .ictu span{
+	font-size: 45px;
+}
+.header .iczi{
+	flex: 5;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.header .icyu{
+	flex: 1;
+	border-radius: 4px;
+	height: 30px;
+	line-height: 30px;
+	background: #FFFFFF;
+	text-align: center;
+	color: green;
+	margin-top: 15px;
+	margin-right: 10px;	
+}
+.header .icyu p{
+	text-align: center;
+	
+}
+.headertu{
+	width: 100%;
+	padding-top: 59px;
+}
+.block40{
+	height: 2rem;
+}
+
+/*下面案例区域开始*/
+.anli ul{
+	width: 100%;
+	/*height: 370px;*/
+	display: flex;
+	flex-wrap: wrap;
+	background: #000000;
+    justify-content: space-around;
+}
+.anli li{
+	/*flex: 1;*/
+	width: 33.3%;
+	flex-wrap: wrap;
+}
+.anli li a{
+	/*display: block;	*/
+	/*width: 33.3%;*/
+	text-decoration: none;
+	/*color: #333;*/
+	
+}
+.anli li a div{
+	width: 33.3%;
+	margin-top: 25px;
+	margin-left: 65px;
+	/*text-align: center;*/
+}
+.anli li a div p{
+	color: green;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 10px;
+}
+.anli li:nth-child(5) a div{
+	width: 33.3%;
+	margin-top: 35px;
+	/*margin-left: 65px;*/
+}
+.anli li:nth-child(5) a div p{
+	color: green;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 20px;
+}
+.bo5{
+	height: 3rem;
+}
+.jingdain{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	color: #FFFFFF;
+	background: green;
+	text-align: center;
+	font-size: 25px;
+}
+.anlizi{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #CCCCCC;
+	color: #000;
+	text-align: center;
+	font-size: 15px;
+	line-height: 50px;
+}
+.jingdianzi{
+	font-size: 25px;
+	text-align: center;
+	font-weight: 700;
+	color: #000;
+}
+.jingdianzi span{
+	color: green;
+}
+.sl1{
+	height: 1rem;
+}
+.jingdianzi1{
+	font-size: 18px;
+	text-align: center;
+	font-weight: 600;
+	color: #000;
+}
+.jingdianzi2{
+	font-size: 15px;
+	text-align: center;
+	font-weight: 500;
+	color: #000;
+}
+.people ul{
+	width: 100%;
+	/*height: 370px;*/
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+.people li{
+/*	flex: 1;*/
+	width: 33.3%;
+	flex-wrap: wrap;
+}
+.people li:nth-child(1){
+	margin-bottom: 2px;
+}
+#mob-bottom{
+	width: 100%;
+	display: flex;
+	margin-top: 5px;
+}
+#mob-bottom .mob-bottom-item{
+	flex: 4;
+   /* text-align: center;*/
+  margin-left: 40px;
+	
+}
+#mob-bottom .mob-bottom-item a{
+	/*display: block;
+	width: 25%;*/
+    padding-top: 5px;
+    padding-bottom: 2px;
+    color: #616161;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 12px;
+}
+#mob-bottom .mob-bottom-item a img {
+    max-width: 40px;
+    text-align: center;
+}
+

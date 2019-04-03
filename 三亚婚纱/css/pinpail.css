@@ -1,0 +1,217 @@
+body{
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    text-align: center;
+    background: #000 !important;
+}
+.container{
+	width: 100%;
+	/*height: 3000px; */
+	margin: 0 auto;
+	background:#FFFFFF; 
+	/* 最大宽度 */
+	max-width: 725px;
+	/* 最小宽度 */
+	min-width: 320px;
+}
+.header{
+	position: relative;
+	background: #130c05;
+	width: 100%;
+	height: 80px;
+	line-height: 66px;
+	display: flex;
+/*	padding: 15px;*/
+	/*overflow: hidden;	*/
+}
+.header .header_top{
+	width: 40%;
+	padding-left: 28%;
+}
+.header .pre{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	/*background: red;*/
+	right: 0;
+	text-align: center;
+	line-height: 80px;
+	cursor: pointer;
+}
+.header .pre:hover{
+	background: #eeeeee;
+	transition: 0.5s;
+}
+.header .pre .pab{
+	display: block;
+	position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 20px;
+    right: 8px;
+    border-radius: 50%;
+    background: #FF4d4d;
+}
+.header .pre span{
+	color: #FFFFFF;
+	font-size: 50px;
+}
+/*导航条开始*/
+.san_nav{
+	display: flex;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+.san_nav li{
+	flex: 1;
+	width: 16.6%;
+	height: 70px;
+}
+.san_nav li a{
+	text-decoration: none;
+}
+.san_nav li a:hover{
+	color: #cdac5f;
+}
+.san_nav li a.hv{
+	border-bottom: 3px solid #cdac5f;
+    color: #cdac5f;
+    /*text-decoration: none;*/
+}
+/*下面图片*/
+.pinpai{
+	text-align: center;
+}
+.pinpai img{
+	width: 100%;
+}
+.wq7{
+	height: 2.5rem;
+}
+/*下面预约开始*/
+.w9{
+	width: 94%;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+.w9 img{
+	width: 100%;
+}
+.cc9{
+	width: 94%;
+	margin: 0 auto;
+}
+
+.baojia .content{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.baojia .content .line{
+	width: 100%;
+}
+.baojia .content .line input[type="text"]{
+	width: 94%;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    font-size: 1.4rem;
+    color: #999;
+    padding-left: 5%;
+}
+.bl1{
+	height: 1rem;
+}
+
+.button2{
+    cursor: pointer;
+    background: #ff4d4d;
+    color: #fff;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.button2:hover{
+	background:#cdac5f;
+}
+.fs24{
+	font-size: 1.2rem;
+	color: #999;
+	text-align: center;
+}
+.bl8{
+	height: 4rem;
+}
+/*weibu*/
+.mb{
+	width: 100%;
+	background: #222;
+}
+.mb .bot1{
+	border-bottom: 1px solid #444;
+}
+.block100{
+	height: 5rem;
+}
+.fB{
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.fs14{
+	font-size: 0.7rem;
+	color: #ccc;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.mb .bot1 a{
+	text-decoration: none;
+}
+.fs72{
+	font-size: 3.6rem;
+	color: #ccc;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.block20{
+	height: 1rem;
+}
+.block40{
+	height: 2rem;
+}
+.mb .bot1 .tu1{
+	width: 100%;
+	text-align: center;
+}
+.block50{
+	height: 2.5rem;
+}
+.block30{
+	height: 1.5rem;
+}
+.fs20{
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 2;
+	color: #999;
+}
+.fs20 a{
+	color: #999;
+	text-decoration: none;
+}
+.fs20 a:hover{
+	color:#cdac5f;
+}
+
