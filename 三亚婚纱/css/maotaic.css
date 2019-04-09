@@ -1,0 +1,30 @@
+.container{
+	width: 100%;
+	height: 3000px; 
+	margin: 0 auto;
+	background:pink; 
+	/* 最大宽度 */
+	max-width: 660px;
+	/* 最小宽度 */
+	min-width: 320px;
+}
+.footer{
+	height: 525px;
+	background: #CCCCCC;
+	/*text-align: center;*/
+	/*display: flex;*/
+	/*align-content: center;*/
+}
+.footer .ccbiao{
+	/*display: flex;*/
+	width: 96%;
+	height: 40px;
+	background: red;
+	/*text-align: center;*/
+	
+}
+.footer .ccbiao a{
+	display: inline-block;
+	width: 33.3%;
+	height: 40px;
+}
